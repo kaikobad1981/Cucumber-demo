@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="463" started-at="2022-03-20T03:03:00Z" finished-at="2022-03-20T03:03:01Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.Instagram_Runner@683dbc2c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Instragram login test" duration-ms="463" started-at="2022-03-20T03:03:00Z" finished-at="2022-03-20T03:03:01Z">
+      <class name="com.runner.Instagram_Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.Instagram_Runner@683dbc2c]" name="setUpClass" is-config="true" duration-ms="244" started-at="2022-03-20T03:03:00Z" finished-at="2022-03-20T03:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.Instagram_Runner@683dbc2c]" name="runScenario" duration-ms="139" started-at="2022-03-20T03:03:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-20T03:03:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to open the browser successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should be able to login successfully]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.baseclass.Base_Instagram.setUp(Base_Instagram.java:18)
+at com.hooks.Instagram_Hooks.initialization(Instagram_Hooks.java:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.Instagram_Runner@683dbc2c]" name="runScenario" duration-ms="3" started-at="2022-03-20T03:03:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-20T03:03:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to open the browser successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should be able to login successfully]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.baseclass.Base_Instagram.setUp(Base_Instagram.java:18)
+at com.hooks.Instagram_Hooks.initialization(Instagram_Hooks.java:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.Instagram_Runner@683dbc2c]" name="runScenario" duration-ms="3" started-at="2022-03-20T03:03:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-20T03:03:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to open the browser successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should be able to login successfully]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.baseclass.Base_Instagram.setUp(Base_Instagram.java:18)
+at com.hooks.Instagram_Hooks.initialization(Instagram_Hooks.java:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.Instagram_Runner@683dbc2c]" name="runScenario" duration-ms="4" started-at="2022-03-20T03:03:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-20T03:03:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to open the browser successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should be able to login successfully]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.baseclass.Base_Instagram.setUp(Base_Instagram.java:18)
+at com.hooks.Instagram_Hooks.initialization(Instagram_Hooks.java:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.Instagram_Runner@683dbc2c]" name="tearDownClass" is-config="true" duration-ms="54" started-at="2022-03-20T03:03:01Z" finished-at="2022-03-20T03:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.Instagram_Runner -->
+    </test> <!-- Instragram login test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Instragram login test(failed)">
+    <classes>
+      <class name="com.runner.Instagram_Runner">
+        <methods>
+          <include name="runScenario" invocation-numbers="0 1 2 3"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.runner.Instagram_Runner -->
+    </classes>
+  </test> <!-- Instragram login test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
